@@ -1,9 +1,12 @@
+html{
+	background-color: #CFF09E;
+}
 .content{
 	width: 60%;
 	min-width: 500px;
 	margin: 0 auto;
 	padding: 10px;
-	background-color: #FFE9BE; 
+	background-color: #A8DBA8; 
 }
 .content img{
 	max-width: 450px;
@@ -16,6 +19,12 @@
 	font-size: 1.2em
 }
 a{
-	color: #7B5406;
+	color: #0B486B;
 	text-decoration: underline;
+}
+hr{
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #0B486B; /* Цвет линии для остальных браузеров */
+    background-color: #0B486B; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
 }
