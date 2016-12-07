@@ -1,0 +1,21 @@
+.content{
+	width: 60%;
+	min-width: 500px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #FFE9BE; 
+}
+.content img{
+	max-width: 450px;
+	display: block;
+	margin: 0 auto;
+}
+.content p{
+	font-family: Arial;
+	padding: 0 10px 0;
+	font-size: 1.2em
+}
+a{
+	color: #7B5406;
+	text-decoration: underline;
+}
