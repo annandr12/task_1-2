@@ -1,14 +1,13 @@
 body{
-	background-color: #CFF09E;
+	background-color: #EDEBE6;
 	font-family: Arial,sans-serif;
 	font-size: 15px;
+	color: #403B33;
 }
 .content{
 	width: 60%;
 	min-width: 500px;
 	margin: 0 auto;
-	padding: 10px;
-	background-color: #A8DBA8;
 }
 .content img{
 	max-width: 450px;
@@ -19,12 +18,45 @@ body{
 	padding: 0 10px 0;
 }
 a{
-	color: #0B486B;
+	color: #D3643B;
 	text-decoration: underline;
 }
 hr{
 	border: none; /* Убираем границу для браузера Firefox */
-  color: #0B486B; /* Цвет линии для остальных браузеров */
-  background-color: #0B486B; /* Цвет линии для браузера Firefox и Opera */
+  color: #D3643B; /* Цвет линии для остальных браузеров */
+  background-color: #D3643B; /* Цвет линии для браузера Firefox и Opera */
   height: 1px; /* Толщина линии */
+}
+.section{
+	padding: 10px;
+	background-color: #D6E1C7;
+	margin-top: 20px;
+}
+.task1 {
+	height: 620px;
+	overflow: auto;
+}
+.header {
+	width: 50%;
+	margin: 10px auto;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #94C7B6;
+	border: 1px solid #777;
+	box-shadow: 4px 4px 4px #403B33;
+}
+.list {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 15px;
+	background-color: #EDEBE6;
+	border: 1px solid #777;
+	box-shadow: -5px -5px 7px #403B33;
+}
+.list a{
+	text-decoration: none;
+}
+.list li{
+	list-style-type: circle;
 }
