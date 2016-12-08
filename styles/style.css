@@ -36,14 +36,18 @@ hr{
 	height: 620px;
 	overflow: auto;
 }
+.task2{
+	color: #555;
+	font-size: 14px;
+}
 .header {
 	width: 50%;
-	margin: 10px auto;
+	margin: 20px auto;
 	padding: 10px 0;
 	text-align: center;
 	background-color: #94C7B6;
 	border: 1px solid #777;
-	box-shadow: 4px 4px 4px #403B33;
+	box-shadow: 4px 4px 4px #555;
 }
 .list {
 	width: 60%;
@@ -52,11 +56,15 @@ hr{
 	padding: 15px;
 	background-color: #EDEBE6;
 	border: 1px solid #777;
-	box-shadow: -5px -5px 7px #403B33;
+	box-shadow: -6px -6px 10px #555;
 }
 .list a{
 	text-decoration: none;
 }
 .list li{
 	list-style-type: circle;
+}
+.second-list li{
+	display: inline-block;
+	margin: 0 10px;
 }
