@@ -1,12 +1,14 @@
-html{
+body{
 	background-color: #CFF09E;
+	font-family: Arial,sans-serif;
+	font-size: 15px;
 }
 .content{
 	width: 60%;
 	min-width: 500px;
 	margin: 0 auto;
 	padding: 10px;
-	background-color: #A8DBA8; 
+	background-color: #A8DBA8;
 }
 .content img{
 	max-width: 450px;
@@ -14,9 +16,7 @@ html{
 	margin: 0 auto;
 }
 .content p{
-	font-family: Arial;
 	padding: 0 10px 0;
-	font-size: 1.2em
 }
 a{
 	color: #0B486B;
@@ -24,7 +24,7 @@ a{
 }
 hr{
 	border: none; /* Убираем границу для браузера Firefox */
-    color: #0B486B; /* Цвет линии для остальных браузеров */
-    background-color: #0B486B; /* Цвет линии для браузера Firefox и Opera */
-    height: 1px; /* Толщина линии */
+  color: #0B486B; /* Цвет линии для остальных браузеров */
+  background-color: #0B486B; /* Цвет линии для браузера Firefox и Opera */
+  height: 1px; /* Толщина линии */
 }
